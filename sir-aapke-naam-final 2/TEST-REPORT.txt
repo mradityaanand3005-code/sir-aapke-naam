@@ -1,0 +1,23 @@
+SIR, AAPKE NAAM! - VERIFICATION REPORT
+
+Test environment: Chromium 144, desktop viewport 1440x900, mobile viewport 390x844.
+
+PASSED
+- Initial load shows only the Grand Welcome scene.
+- The first scene's first heading is "Happy Birthday" followed by "Respected Sir!".
+- HOD portrait and full photograph load from the local assets folder.
+- ENTER THE SURPRISE navigates to the cake scene.
+- Blow the Candles advances to Memories.
+- Memory navigation advances to the HOD.exe report.
+- HOD.exe advances to the Party Proposal.
+- Party Approved triggers fireworks and starts the supplied birthday audio.
+- The party continuation stops the birthday track at the Transfer Rumour screen.
+- Transfer YES displays the emotional farewell and starts the supplied sad BGM.
+- Transfer NO displays the celebration branch, fireworks and supplied celebration audio.
+- Party Soch ke Batata Hoon starts the supplied sad BGM.
+- Replay returns to the welcome scene, resets the cake and restores both transfer choices.
+- Both transfer branches work after replay.
+- JavaScript syntax check passes.
+- No JavaScript console/page errors in the complete desktop interaction test.
+
+The visual preview was also checked at desktop and mobile sizes. Sound playback may still depend on the visitor's browser volume and audio settings.
